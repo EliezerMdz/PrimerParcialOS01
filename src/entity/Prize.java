@@ -1,8 +1,15 @@
 package entity;
 
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+
 /**
  * Created by EliezerMdz on 09/09/2016.
  */
+
+@ManagedBean
+@RequestScoped
+
 public class Prize {
     String description;
     String brand;
