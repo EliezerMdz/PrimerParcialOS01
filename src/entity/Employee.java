@@ -11,7 +11,7 @@ import javax.faces.bean.RequestScoped;
 @RequestScoped
 
 public class Employee {
-    private int id;
+    private String id;
     private String name;
     private String lastName;
     private String phoneNumber;
@@ -20,7 +20,7 @@ public class Employee {
     public Employee() {
     }
 
-    public Employee(int id, String name, String lastName, String phoneNumber, String email) {
+    public Employee(String id, String name, String lastName, String phoneNumber, String email) {
         this.id = id;
         this.name = name;
         this.lastName = lastName;
@@ -28,11 +28,11 @@ public class Employee {
         this.email = email;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 

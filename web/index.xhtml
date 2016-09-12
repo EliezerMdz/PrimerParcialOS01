@@ -12,7 +12,28 @@
    </h:head>
    <h:body>
       <h:form id="form" enctype="multipart/form-data">
-
+         <h:inputFile id="file" value="#{EmpCont.employeeFile}"/>
+         <h:commandButton actionListener="#{EmpCont.uploadEmpFile}" value="Upload"/>
       </h:form>
+      <p:dataTable var="employee" value="#{EmpCont.employees}">
+         <p:column headerText="Id">
+            <h:outputText value="#{employee.id}" />
+         </p:column>
+
+         <p:column headerText="Name">
+            <h:outputText value="#{employee.name}" />
+         </p:column>
+
+         <p:column headerText="Last Name">
+            <h:outputText value="#{employee.lastName}" />
+         </p:column>
+
+         <p:column headerText="Phone Number">
+            <h:outputText value="#{employee.phoneNumber}" />
+         </p:column>
+         <p:column headerText="Email">
+            <h:outputText value="#{employee.email}" />
+         </p:column>
+      </p:dataTable>
    </h:body>
 </html>
