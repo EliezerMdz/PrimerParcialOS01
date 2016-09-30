@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0935fd74-25bd-4634-adb4-158ba7e1b29f" name="Default" comment="Completado el cargar y mostrar datos del empleado">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PrimerParcialOS01_war_exploded/WEB-INF/classes/Controller/EmployeeController.class" afterPath="$PROJECT_DIR$/out/artifacts/PrimerParcialOS01_war_exploded/WEB-INF/classes/Controller/EmployeeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PrimerParcialOS01_war_exploded/WEB-INF/classes/Controller/PrizeController.class" afterPath="$PROJECT_DIR$/out/artifacts/PrimerParcialOS01_war_exploded/WEB-INF/classes/Controller/PrizeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PrimerParcialOS01_war_exploded/WEB-INF/classes/Controller/WinnerController.class" afterPath="$PROJECT_DIR$/out/artifacts/PrimerParcialOS01_war_exploded/WEB-INF/classes/Controller/WinnerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PrimerParcialOS01_war_exploded/WEB-INF/classes/entity/Prize.class" afterPath="$PROJECT_DIR$/out/artifacts/PrimerParcialOS01_war_exploded/WEB-INF/classes/entity/Prize.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PrimerParcialOS01/Controller/EmployeeController.class" afterPath="$PROJECT_DIR$/out/production/PrimerParcialOS01/Controller/EmployeeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PrimerParcialOS01/Controller/PrizeController.class" afterPath="$PROJECT_DIR$/out/production/PrimerParcialOS01/Controller/PrizeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PrimerParcialOS01/Controller/WinnerController.class" afterPath="$PROJECT_DIR$/out/production/PrimerParcialOS01/Controller/WinnerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PrimerParcialOS01/entity/Prize.class" afterPath="$PROJECT_DIR$/out/production/PrimerParcialOS01/entity/Prize.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/EmployeeController.java" afterPath="$PROJECT_DIR$/src/Controller/EmployeeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/PrizeController.java" afterPath="$PROJECT_DIR$/src/Controller/PrizeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/WinnerController.java" afterPath="$PROJECT_DIR$/src/Controller/WinnerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entity/Prize.java" afterPath="$PROJECT_DIR$/src/entity/Prize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.xhtml" afterPath="$PROJECT_DIR$/web/index.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PrimerParcialOS01_war_exploded/index.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/PrimerParcialOS01_war_exploded/index.xhtml" />
     </list>
     <ignored path="PrimerParcialOS01.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,8 +73,8 @@
       <file leaf-file-name="EmailSenderController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller/EmailSenderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -756,7 +760,7 @@
       <workItem from="1473553301049" duration="1621000" />
       <workItem from="1473623170107" duration="2824000" />
       <workItem from="1473626341526" duration="14897000" />
-      <workItem from="1475195589920" duration="2791000" />
+      <workItem from="1475195589920" duration="3007000" />
     </task>
     <task id="LOCAL-00001" summary="Configuraciones iniciales">
       <created>1473479184591</created>
@@ -765,11 +769,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473479184591</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completado el cargar y mostrar datos del empleado">
+      <created>1475198661469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1475198661469</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35851000" />
+    <option name="totallyTimeSpent" value="36067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -820,7 +831,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configuraciones iniciales" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuraciones iniciales" />
+    <MESSAGE value="Completado el cargar y mostrar datos del empleado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completado el cargar y mostrar datos del empleado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1394,8 +1406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/EmailSenderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
