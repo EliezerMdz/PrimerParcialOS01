@@ -17,6 +17,9 @@
           <element id="file-copy" path="$USER_HOME$/Desktop/lib/poi-ooxml-schemas-3.7-beta1.jar" />
           <element id="file-copy" path="$USER_HOME$/Desktop/lib/poi-3.9.jar" />
           <element id="file-copy" path="$USER_HOME$/Desktop/lib/poi-ooxml-3.9.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/lib/commons-email-1.4.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/lib/activation.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/lib/java-mail-1.4.4.jar" />
         </element>
       </element>
     </root>

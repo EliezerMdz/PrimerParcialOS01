@@ -26,6 +26,8 @@ public class GeneralController {
     private PrizeController przController;
     @ManagedProperty(value = "#{WnrCont}")
     private WinnerController wnrController;
+    @ManagedProperty(value = "#{Mailer}")
+    private EmailSenderController emailSenderController;
 
     public void uploadExcelFile(ActionEvent event){
         try {
@@ -52,6 +54,18 @@ public class GeneralController {
         }catch (Exception ex){
             ex.printStackTrace();
         }
+    }
+
+    public void sendMail(){
+        emailSenderController.sendMail();
+    }
+
+    public EmailSenderController getEmailSenderController() {
+        return emailSenderController;
+    }
+
+    public void setEmailSenderController(EmailSenderController emailSenderController) {
+        this.emailSenderController = emailSenderController;
     }
 
     public Part getGeneralExcelFile() {
