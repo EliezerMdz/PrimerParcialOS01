@@ -21,7 +21,7 @@ public class EmailSenderController {
     public void sendMail(){
 
         String username = "eliezermdz7@gmail.com";
-        String password = "Kl@ud,nlne.7";
+        String password = "*****";
         String to = "yeffryv@gmail.com";
         String from = "rifaOP@gmail.com";
         String host = "localhost";
