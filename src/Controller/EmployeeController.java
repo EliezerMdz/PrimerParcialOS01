@@ -25,35 +25,29 @@ import java.util.Iterator;
 public class EmployeeController {
 
     private ArrayList<Employee> employees;
-    private Part employeeFile;
 
-    public void uploadEmpFile(ActionEvent event){
-       try {
-           FileInputStream empfis = (FileInputStream) employeeFile.getInputStream();
+    public void uploadEmpFile(XSSFSheet employeeSheet){
+        try {
+            Iterator<Row> rowIt = employeeSheet.rowIterator();
+            rowIt.next();
+            employees = new ArrayList<Employee>();
 
-           XSSFWorkbook workbook = new XSSFWorkbook(empfis);
-           XSSFSheet sheet = workbook.getSheet("Employees");
+            while (rowIt.hasNext()){
 
-           Iterator<Row> rowIt = sheet.rowIterator();
-           rowIt.next();
-           employees = new ArrayList<Employee>();
+                XSSFRow row = (XSSFRow) rowIt.next();
+                String id = row.getCell(0).getStringCellValue();
+                String name = row.getCell(1).getStringCellValue();
+                String lastName = row.getCell(2).getStringCellValue();
+                String phoneNumber = row.getCell(3).getStringCellValue();
+                String email = row.getCell(4).getStringCellValue();
 
-           while (rowIt.hasNext()){
+                Employee employee = new Employee(id, name, lastName, phoneNumber, email);
+                employees.add(employee);
+            }
 
-               XSSFRow row = (XSSFRow) rowIt.next();
-               String id = row.getCell(0).getStringCellValue();
-               String name = row.getCell(1).getStringCellValue();
-               String lastName = row.getCell(2).getStringCellValue();
-               String phoneNumber = row.getCell(3).getStringCellValue();
-               String email = row.getCell(4).getStringCellValue();
-
-               Employee employee = new Employee(id, name, lastName, phoneNumber, email);
-               employees.add(employee);
-           }
-
-       }catch (Exception e){
-           e.printStackTrace();
-       }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
     }
 
@@ -63,16 +57,6 @@ public class EmployeeController {
 
     public void setEmployees(ArrayList<Employee> employees) {
         this.employees = employees;
-    }
-
-    public Part getEmployeeFile() {
-
-        return employeeFile;
-    }
-
-    public void setEmployeeFile(Part employeeFile) {
-
-        this.employeeFile = employeeFile;
     }
 
 }

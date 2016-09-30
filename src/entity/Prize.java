@@ -11,9 +11,9 @@ import javax.faces.bean.RequestScoped;
 @RequestScoped
 
 public class Prize {
-    String description;
-    String brand;
-    int quantity;
+    private String description;
+    private String brand;
+    private int quantity;
 
     public Prize() {
     }
