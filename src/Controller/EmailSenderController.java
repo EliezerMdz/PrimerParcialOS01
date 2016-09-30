@@ -20,7 +20,7 @@ public class EmailSenderController {
 
     public void sendMail(){
 
-        String username = "eliezermdz7@gmail.com";
+        String username = "raffle@gmail.com";
         String password = "*****";
         String to = "yeffryv@gmail.com";
         String from = "rifaOP@gmail.com";
